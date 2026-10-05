@@ -40,9 +40,7 @@ https://8weeksqlchallenge.com/case-study-5/
 * Power Query
 * DAX
 * Data Visualization
-* KPI Development
 * Interactive Dashboard Design
-* Business Data Analysis
 
 ## Dataset
 
@@ -70,22 +68,11 @@ The SQL analysis is organized into the following files:
 
 ## Power BI Dashboard
 
-The Power BI dashboard was created to visualize the results of the Data Mart analysis and present key business insights interactively.
+A Power BI dashboard was created to visualize the analysis and present key business insights interactively.
 
 Power BI file:
 
 `case study 5.pbix`
-
-The dashboard focuses on:
-
-* Sales performance
-* Sales trends over time
-* Regional performance
-* Platform performance
-* Customer demographics
-* Product segment analysis
-* Before & after comparisons
-* Key business metrics and insights
 
 ## Business Questions
 
@@ -135,9 +122,7 @@ This case study also provided practice with:
 
 * Data modeling
 * Power Query transformations
-* DAX measures
-* KPI development
-* Interactive data visualization
-* Time series analysis
-* Before-and-after comparisons
+* DAX
+* Data visualization
+* Interactive dashboards
 * Presenting business insights through dashboards
