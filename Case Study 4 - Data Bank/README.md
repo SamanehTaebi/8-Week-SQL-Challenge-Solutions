@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project analyzes customer data for Data Bank, a digital banking business, using SQL and Power BI.
+This project analyzes customer data for Data Bank using SQL and Power BI.
 
-The goal is to explore customer nodes, transactions, and customer allocation data to understand customer distribution, transaction behavior, and business performance.
+The goal is to explore customer nodes, transactions, data allocation, and other business questions related to Data Bank's digital banking operations.
 
 ## Case Study Reference
 
@@ -37,17 +37,17 @@ https://8weeksqlchallenge.com/case-study-4/
 * Power Query
 * DAX
 * Data Visualization
-* KPI Development
 * Interactive Dashboard Design
 
 ## Dataset
 
-The dataset contains information about Data Bank customers, their assigned nodes, and transaction activity.
+The dataset contains information about Data Bank's customers, nodes, transactions, and transaction types.
 
 The analysis uses data related to:
 
-* Customer nodes and regions
-* Customer transactions
+* Customer nodes
+* Regions
+* Transactions
 * Transaction types
 * Transaction amounts
 * Customer allocation and distribution
@@ -56,21 +56,19 @@ The analysis uses data related to:
 
 The SQL analysis is organized into the following files:
 
-1. `01_Customer_Nodes_Exploration.sql` - Explores customer node allocation and distribution
-2. `02_Customer Transactions.sql` - Analyzes customer transaction data and transaction behavior
-3. `03_Data_Allocation_Challenge.sql` - Answers the data allocation challenge questions
-4. `04_Extra_Challenge.sql` - Answers additional challenge questions
-5. `data.sql` - Creates and populates the database with the case study dataset
+1. `01_Customer_Nodes_Exploration.sql`
+2. `02_Customer Transactions.sql`
+3. `03_Data_Allocation_Challenge.sql`
+4. `04_Extra_Challenge.sql`
+5. `data.sql`
 
-## Power BI
+## Power BI Dashboard
 
-A Power BI dashboard was created for this case study to visualize the results of the SQL analysis.
+A Power BI dashboard was created to visualize the analysis and present key business insights interactively.
 
-The Power BI file is:
+Power BI file:
 
 `case_study4.pbix`
-
-The dashboard focuses on customer distribution, transaction activity, and key business metrics, providing an interactive way to explore the Data Bank dataset.
 
 ## Business Questions
 
@@ -79,47 +77,50 @@ The analysis covers questions related to:
 ### A. Customer Nodes
 
 * Customer distribution across nodes
-* Regional customer allocation
-* Node-related customer metrics
+* Node allocation
+* Regional distribution
+* Customer activity across nodes
 
 ### B. Customer Transactions
 
-* Transaction volume
-* Transaction amounts
+* Transaction activity
 * Transaction types
+* Transaction amounts
+* Monthly transaction patterns
 * Customer transaction behavior
 
 ### C. Data Allocation
 
-* Customer allocation analysis
-* Distribution of customers across regions and nodes
-* Business metrics related to data allocation
+* Customer allocation
+* Data distribution
+* Regional allocation
+* Allocation-related business metrics
 
 ### D. Extra Challenge
 
-Additional analytical questions based on the Data Bank dataset.
+* Additional analysis and business questions from the case study
 
 ## Key SQL Concepts
 
 This case study provided practice with:
 
-* Exploring relational datasets
+* Exploring relational data
 * Joining multiple tables
-* Aggregating transaction data
-* Working with dates
-* Analyzing customer behavior
-* Using CTEs for complex queries
+* Aggregating customer and transaction data
+* Using CTEs for complex analysis
 * Applying conditional logic with `CASE`
 * Using window functions
-* Performing business-focused data analysis
+* Working with dates
+* Customer segmentation
+* Data allocation analysis
 
 ## Key Power BI Concepts
 
 This case study also provided practice with:
 
 * Data modeling
-* Data preparation using Power Query
-* Creating calculated measures with DAX
-* Building interactive visualizations
-* Designing a business dashboard
-* Presenting SQL analysis results visually
+* Power Query transformations
+* DAX
+* Data visualization
+* Interactive dashboards
+* Presenting business insights through dashboards
